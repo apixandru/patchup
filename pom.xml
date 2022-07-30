@@ -8,6 +8,10 @@
     <artifactId>patchup</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+        <maven.deploy.skip>true</maven.deploy.skip>
+    </properties>
+
     <build>
         <finalName>patchup</finalName>
         <plugins>
@@ -54,6 +58,5 @@
             </plugin>
         </plugins>
     </build>
-
 
 </project>
