@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
 
-final class Utils {
+class Utils {
 
     static String getFileChecksum(MessageDigest digest, File file) throws IOException {
         try (FileInputStream fis = new FileInputStream(file)) {
