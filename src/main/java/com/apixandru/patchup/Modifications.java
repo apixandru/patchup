@@ -44,6 +44,8 @@ class Modifications {
                     System.out.println(mn.name + mn.desc);
                 } else if (overrideMethod.equals(mn.name + mn.desc)) {
                     mn.instructions.insert(new InsnNode(RETURN));
+                } else if (overrideMethod.length() == 1 && mn.name.startsWith(overrideMethod)) {
+                    System.out.println(mn.name + mn.desc);
                 }
             }
 
