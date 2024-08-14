@@ -11,7 +11,7 @@
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
-        <versionAsm>9.3</versionAsm>
+        <versionAsm>9.7</versionAsm>
         <versionShadePlugin>3.3.0</versionShadePlugin>
     </properties>
 
